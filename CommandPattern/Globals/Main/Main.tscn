@@ -1,0 +1,17 @@
+[gd_scene format=3 uid="uid://dsrvj8gi7goom"]
+
+[ext_resource type="Script" uid="uid://bt21w0ssnxpak" path="res://Globals/Main/Main.gd" id="1_8yt10"]
+[ext_resource type="Script" uid="uid://bytnibuy4e465" path="res://Globals/Main/SceneManager.gd" id="2_ix4qi"]
+[ext_resource type="Script" uid="uid://bxtnqkbkl31gg" path="res://Globals/Services/ServiceLocator.gd" id="2_juqla"]
+
+[node name="Main" type="Node" unique_id=1251562660]
+script = ExtResource("1_8yt10")
+
+[node name="ServiceLocator" type="Node" parent="." unique_id=1237374994]
+script = ExtResource("2_juqla")
+metadata/_custom_type_script = "uid://bxtnqkbkl31gg"
+
+[node name="SceneManager" type="Node" parent="." unique_id=1794414971]
+script = ExtResource("2_ix4qi")
+
+[node name="UIManager" type="Node" parent="." unique_id=1475841422]

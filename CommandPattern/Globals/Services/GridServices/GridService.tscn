@@ -1,0 +1,6 @@
+[gd_scene format=3 uid="uid://wbusxyjk26tv"]
+
+[ext_resource type="Script" uid="uid://ob8ic5k0gajn" path="res://Globals/Services/GridServices/GridService.gd" id="1_mnui6"]
+
+[node name="GridService" type="Node" unique_id=437105304]
+script = ExtResource("1_mnui6")
