@@ -7,6 +7,9 @@ var last_direction: Vector2i = Vector2i(0, 1)
 
 var _tween: Tween
 
+var is_reverse:bool = false
+var end_facing: Vector2i = Vector2i.ZERO
+
 
 func on_bind() -> void:
 	grid_position = Vector2i(_actor.position)

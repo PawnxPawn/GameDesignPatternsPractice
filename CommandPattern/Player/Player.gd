@@ -4,6 +4,7 @@ class_name Player extends Node2D
 
 var _command_history: CommandHistory
 var _move: MoveComponent
+var _animation: AnimationComponent
 var _grid_service: GridService
 var _event_bus: EventBus
 var _sm: StateMachine
@@ -36,6 +37,7 @@ func _bind_components() -> void:
 
 func _assign_componets() -> void:
 	_move = get_component(MoveComponent) as MoveComponent
+	_animation = get_component(AnimationComponent) as AnimationComponent
 
 
 func _connect_signals() -> void:
@@ -67,9 +69,11 @@ func get_component(type:GDScript) -> Component:
 	return null
 
 
-func move_to(target: Vector2i, direction: Vector2i) -> void:
+func move_to(target: Vector2i, direction: Vector2i, is_reversed: bool, end_facing: Vector2i = Vector2i.ZERO) -> void:
 	if not _move: return
 	var world_pos: Vector2 = _grid_service.grid_to_world(target)
+	_move.is_reverse = is_reversed
+	_move.end_facing = end_facing
 	_move.move_to(target, world_pos, direction)
 	_sm.change_state(&"Walk")
 
@@ -79,7 +83,8 @@ func request_move(direction: Vector2i) -> void:
 	if not _grid_service.is_walkable(_move.grid_position + direction): return
 	var from: Vector2i = _move.grid_position
 	var to: Vector2i = _move.grid_position + direction
-	_command_history.execute_command(MoveCommand.new(self, from, to, _event_bus))
+	var prev_facing: Vector2i = _animation.facing
+	_command_history.execute_command(MoveCommand.new(self, from, to,direction, prev_facing, _event_bus))
 
 
 func request_undo() -> void:
