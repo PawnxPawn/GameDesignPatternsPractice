@@ -5,6 +5,7 @@
 [ext_resource type="Script" uid="uid://cl68iys7xw2rr" path="res://Componets/Component.gd" id="2_ddoul"]
 [ext_resource type="Script" uid="uid://c2jw0i2l1xhdl" path="res://Componets/MoveComponent.gd" id="3_8g4oa"]
 [ext_resource type="Script" uid="uid://d1fkbjnjwxt0i" path="res://Componets/InputComponet.gd" id="4_8g4oa"]
+[ext_resource type="Script" uid="uid://xp6h2e26ua8v" path="res://Componets/AnimationComponent.gd" id="5_6ysni"]
 
 [sub_resource type="Resource" id="Resource_6ysni"]
 script = ExtResource("3_8g4oa")
@@ -13,6 +14,9 @@ metadata/_custom_type_script = "uid://c2jw0i2l1xhdl"
 [sub_resource type="Resource" id="Resource_vlldt"]
 script = ExtResource("4_8g4oa")
 metadata/_custom_type_script = "uid://d1fkbjnjwxt0i"
+
+[sub_resource type="Resource" id="Resource_s1rgi"]
+script = ExtResource("5_6ysni")
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_q3lat"]
 atlas = ExtResource("1_3qydi")
@@ -109,7 +113,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_8g4oa")
 }],
-"loop": true,
+"loop": false,
 "name": &"Idle",
 "speed": 5.0
 }, {
@@ -126,9 +130,9 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_j23h2")
 }],
-"loop": true,
+"loop": false,
 "name": &"WalkDown",
-"speed": 5.0
+"speed": 10.0
 }, {
 "frames": [{
 "duration": 1.0,
@@ -143,9 +147,9 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_p7tob")
 }],
-"loop": true,
+"loop": false,
 "name": &"WalkLeft",
-"speed": 5.0
+"speed": 10.0
 }, {
 "frames": [{
 "duration": 1.0,
@@ -160,9 +164,9 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_8sa4y")
 }],
-"loop": true,
+"loop": false,
 "name": &"WalkRight",
-"speed": 5.0
+"speed": 10.0
 }, {
 "frames": [{
 "duration": 1.0,
@@ -177,15 +181,15 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_roy6y")
 }],
-"loop": true,
+"loop": false,
 "name": &"WalkUp",
-"speed": 5.0
+"speed": 10.0
 }]
 
 [node name="Player" type="Node2D" unique_id=578660130]
 script = ExtResource("1_q3lat")
-_components = Array[ExtResource("2_ddoul")]([SubResource("Resource_6ysni"), SubResource("Resource_vlldt")])
+_components = Array[ExtResource("2_ddoul")]([SubResource("Resource_6ysni"), SubResource("Resource_vlldt"), SubResource("Resource_s1rgi")])
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=843512245]
 sprite_frames = SubResource("SpriteFrames_u5tep")
-animation = &"Idle"
+animation = &"WalkRight"
