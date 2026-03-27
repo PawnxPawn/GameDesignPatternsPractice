@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cb1q5rnfkwtu0"
-path="res://.godot/imported/Basic tools and meterials.png-b576d372e8524405c148eaf7be8ba9bd.ctex"
+uid="uid://dik506ckpqygb"
+path="res://.godot/imported/keyboard-Controls.png-81f0c7a17bd3cffddcf1729e869005c6.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Objects/Basic tools and meterials.png"
-dest_files=["res://.godot/imported/Basic tools and meterials.png-b576d372e8524405c148eaf7be8ba9bd.ctex"]
+source_file="res://Assets/keyboard-Controls.png"
+dest_files=["res://.godot/imported/keyboard-Controls.png-81f0c7a17bd3cffddcf1729e869005c6.ctex"]
 
 [params]
 

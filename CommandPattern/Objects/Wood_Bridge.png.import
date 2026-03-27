@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://clasklxr2cy6r"
-path="res://.godot/imported/Free_Chicken_House.png-7a56547fced43491ec7c4dbe296f14c0.ctex"
+uid="uid://blebjqjdksutb"
+path="res://.godot/imported/Wood_Bridge.png-b3c05b24d1a4be51ad8686ead2d5cb3b.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Objects/Free_Chicken_House.png"
-dest_files=["res://.godot/imported/Free_Chicken_House.png-7a56547fced43491ec7c4dbe296f14c0.ctex"]
+source_file="res://Objects/Wood_Bridge.png"
+dest_files=["res://.godot/imported/Wood_Bridge.png-b3c05b24d1a4be51ad8686ead2d5cb3b.ctex"]
 
 [params]
 

@@ -14,7 +14,10 @@ func _setup(sm: StateMachine, parent: Node) -> void:
 
 func enter() -> void:
 	_animation.animation_finished.connect(_on_animation_finished, CONNECT_ONE_SHOT)
-	_animation.play_walk(_move.last_direction)
+	if _move.is_reverse:
+		_animation.play_walk_reverse(_move.last_direction)
+	else:
+		_animation.play_walk(_move.last_direction)
 
 
 func exit() -> void:
@@ -23,4 +26,6 @@ func exit() -> void:
 
 
 func _on_animation_finished(_anim_name: StringName) -> void:
+	if _move.is_reverse:
+		_animation.set_facing(_move.end_facing)
 	transition_to(&"Idle")
