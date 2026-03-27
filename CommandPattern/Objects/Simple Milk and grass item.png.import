@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cmjmwgnk7w32g"
-path="res://.godot/imported/Basic_tools_and_meterials.png-cce554f8f9bac1b8070ba15d4659315a.ctex"
+uid="uid://b2pmnbhq0a4xg"
+path="res://.godot/imported/Simple Milk and grass item.png-1d47c30baaf804855557f752da20f970.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Objects/Basic_tools_and_meterials.png"
-dest_files=["res://.godot/imported/Basic_tools_and_meterials.png-cce554f8f9bac1b8070ba15d4659315a.ctex"]
+source_file="res://Objects/Simple Milk and grass item.png"
+dest_files=["res://.godot/imported/Simple Milk and grass item.png-1d47c30baaf804855557f752da20f970.ctex"]
 
 [params]
 
