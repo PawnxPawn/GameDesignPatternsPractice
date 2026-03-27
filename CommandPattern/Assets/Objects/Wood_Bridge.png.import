@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://coe1ma44smd0a"
-path="res://.godot/imported/Basic Grass Biom things 1.png-c0c211f0b3e0d74e62d24bb44691e872.ctex"
+uid="uid://blebjqjdksutb"
+path="res://.godot/imported/Wood_Bridge.png-a0797eab28a2f5ebaf06ef67754fe699.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Objects/Basic Grass Biom things 1.png"
-dest_files=["res://.godot/imported/Basic Grass Biom things 1.png-c0c211f0b3e0d74e62d24bb44691e872.ctex"]
+source_file="res://Assets/Objects/Wood_Bridge.png"
+dest_files=["res://.godot/imported/Wood_Bridge.png-a0797eab28a2f5ebaf06ef67754fe699.ctex"]
 
 [params]
 

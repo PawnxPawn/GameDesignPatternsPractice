@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://jqvw2yw5w6h"]
 
-[ext_resource type="Script" uid="uid://crurahvaeg014" path="res://Globals/Main/MainMenu.gd" id="1_menu"]
+[ext_resource type="Script" uid="uid://crurahvaeg014" path="res://Ui/MainMenu.gd" id="1_menu"]
 [ext_resource type="Texture2D" uid="uid://dv0l4snb65tod" path="res://Assets/Field.png" id="2_jcub0"]
 [ext_resource type="Texture2D" uid="uid://c7nlrvqq4vdln" path="res://Assets/AssetsSign.png" id="2_utvl0"]
 

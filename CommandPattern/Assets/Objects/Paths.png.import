@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://clasklxr2cy6r"
-path="res://.godot/imported/Free_Chicken_House.png-ded53f07433452fe79801d0fc18ddc1a.ctex"
+uid="uid://n6iciwssuf57"
+path="res://.godot/imported/Paths.png-63c04948d9e3ad85e13b8d2f8a272861.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Objects/Free_Chicken_House.png"
-dest_files=["res://.godot/imported/Free_Chicken_House.png-ded53f07433452fe79801d0fc18ddc1a.ctex"]
+source_file="res://Assets/Objects/Paths.png"
+dest_files=["res://.godot/imported/Paths.png-63c04948d9e3ad85e13b8d2f8a272861.ctex"]
 
 [params]
 
