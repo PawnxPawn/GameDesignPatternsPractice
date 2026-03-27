@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://b1fx77e5s2oxx"
-path="res://.godot/imported/Basic_Plants.png-baf503b65e7557d53740f17810333eab.ctex"
+uid="uid://bjtvvhqp5q3b5"
+path="res://.godot/imported/Basic Plants.png-cdb7ed54a1778049fcb83f07f9463e7a.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Objects/Basic_Plants.png"
-dest_files=["res://.godot/imported/Basic_Plants.png-baf503b65e7557d53740f17810333eab.ctex"]
+source_file="res://Objects/Basic Plants.png"
+dest_files=["res://.godot/imported/Basic Plants.png-cdb7ed54a1778049fcb83f07f9463e7a.ctex"]
 
 [params]
 

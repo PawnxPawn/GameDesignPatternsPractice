@@ -1,0 +1,87 @@
+[gd_scene format=3 uid="uid://jqvw2yw5w6h"]
+
+[ext_resource type="Script" uid="uid://crurahvaeg014" path="res://Globals/Main/MainMenu.gd" id="1_menu"]
+[ext_resource type="Texture2D" uid="uid://dv0l4snb65tod" path="res://Assets/Field.png" id="2_jcub0"]
+[ext_resource type="Texture2D" uid="uid://c7nlrvqq4vdln" path="res://Assets/AssetsSign.png" id="2_utvl0"]
+
+[node name="MainMenu" type="CanvasLayer" unique_id=1044427270]
+script = ExtResource("1_menu")
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=1069395072]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+color = Color(0, 0, 0, 1)
+
+[node name="TextureRect2" type="TextureRect" parent="." unique_id=25924026]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("2_jcub0")
+expand_mode = 2
+
+[node name="CenterContainer" type="CenterContainer" parent="." unique_id=1526494371]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="VBoxContainer" type="VBoxContainer" parent="CenterContainer" unique_id=1310595300]
+custom_minimum_size = Vector2(200, 0)
+layout_mode = 2
+alignment = 1
+
+[node name="Title" type="Label" parent="CenterContainer/VBoxContainer" unique_id=1498330436]
+layout_mode = 2
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 0.47058824)
+text = "Select World"
+horizontal_alignment = 1
+
+[node name="HBoxContainer" type="HBoxContainer" parent="CenterContainer/VBoxContainer" unique_id=1974463005]
+layout_mode = 2
+alignment = 1
+
+[node name="LeftButton" type="Button" parent="CenterContainer/VBoxContainer/HBoxContainer" unique_id=1]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(30, 0)
+layout_mode = 2
+text = "<"
+
+[node name="Label" type="Label" parent="CenterContainer/VBoxContainer/HBoxContainer" unique_id=2]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(120, 0)
+layout_mode = 2
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 0.47058824)
+text = "Scene"
+horizontal_alignment = 1
+
+[node name="RightButton" type="Button" parent="CenterContainer/VBoxContainer/HBoxContainer" unique_id=3]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(30, 0)
+layout_mode = 2
+text = ">"
+
+[node name="PlayButton" type="Button" parent="CenterContainer/VBoxContainer" unique_id=4]
+unique_name_in_owner = true
+layout_mode = 2
+text = "Play"
+
+[node name="TextureRect3" type="TextureRect" parent="." unique_id=1427403062]
+modulate = Color(0, 0, 0, 0.22745098)
+offset_left = 2.0
+offset_top = -1.0
+offset_right = 66.0
+offset_bottom = 67.0
+texture = ExtResource("2_utvl0")
+
+[node name="TextureRect" type="TextureRect" parent="." unique_id=627868877]
+offset_right = 40.0
+offset_bottom = 40.0
+texture = ExtResource("2_utvl0")
